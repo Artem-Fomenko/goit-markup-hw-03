@@ -6,7 +6,7 @@
     --background-color: #2F303A;
     --team-color: #F5F4FA;
 }
-body{
+body {
     font-family: 'Roboto', sans-serif;
     color:#212121 ;
     background-color: #ffffff;
@@ -50,6 +50,7 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+/* шапка сайту */
 .header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -103,6 +104,7 @@ color: var(--secondary-color);
 
 text-decoration: none;
 }
+/* герой */
 .hero {
     color: var(--withe-color);
     background-color: var(--background-color);
@@ -134,8 +136,7 @@ text-decoration: none;
     color: var(--withe-color);
     margin-right: auto;
     margin-left: auto; 
-    padding: 10px 32px;  
-    
+    padding: 10px 32px;     
 }
 .hero-button:hover, .hero-button:focus{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -162,6 +163,7 @@ text-decoration: none;
     letter-spacing: 0.03em;
     color: var(--secondary-color);
 }
+/* чим ми займаємося */
 .work, .team{
     font-weight: 700;
     font-size: 36px;
@@ -174,6 +176,7 @@ text-decoration: none;
     display: flex;
     column-gap: 30px;
 }
+/* наша команда */
 .our-team { 
     background-color: var(--team-color);
 }
@@ -194,7 +197,6 @@ text-decoration: none;
     display: flex;
     column-gap: 30px;
 }
-
 .profession {
     font-size: 16px;
     line-height: 1.19;    
@@ -203,6 +205,7 @@ text-decoration: none;
     color: var(--secondary-color);
     padding-bottom: 30px;
 }
+/* footer */
 .footer-item{
     background-color: var(--background-color);
 }
@@ -216,16 +219,14 @@ text-decoration: none;
     text-decoration: none;
     display: inline-block;
     padding-top: 60px;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px;  
 }
 .footer-address{
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;    
     letter-spacing: 0.03em;
-    padding-bottom: 60px;
-    
+    padding-bottom: 60px;  
 }
 .location{
     color: var(--withe-color);
@@ -261,12 +262,12 @@ text-decoration: none;
     padding: 5px 25px;
     
 }
- .button:hover, .button:focus {
+.button:hover, .button:focus {
     color: var(--withe-color);
     background: var(--hover-color);
         box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
         border-radius: 4px;} 
-  .visually-hidden {
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -278,11 +279,10 @@ text-decoration: none;
     clip-path: inset(50%);
     margin: -1px;
     }
-    .portfolio-list {
+.portfolio-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 30px;
-        
+        gap: 30px;   
     }
 .portfolio-item{
     font-style: italic;
@@ -293,7 +293,7 @@ text-decoration: none;
     margin-top: 20px;
     margin-left: 25px;
 }
- .portfolio-text{
+.portfolio-text{
     font-style: italic;
     font-size: 14px;
     line-height: 1.88;
@@ -301,12 +301,9 @@ text-decoration: none;
     color: var(--secondary-color);
     margin-left: 25px;
     padding-bottom: 20px;
-    
-
  }
- .portfolio-border {
-    border: 1px solid #EEEEEE;
-    
+.portfolio-border {
+    border: 1px solid #EEEEEE;  
  }
  
 
