@@ -90,6 +90,7 @@ justify-content: space-between;
     margin-right: 95px;
 }
 .link{
+    display: block;
     color: var(--main-color);  
     text-decoration: none;
     padding-top: 30px;
@@ -99,6 +100,7 @@ justify-content: space-between;
     color: var(--hover-color);
 }
 .contacts{
+    display: block;
     color: var(--secondary-color);
     padding-top: 30px;
     padding-bottom: 30px;
